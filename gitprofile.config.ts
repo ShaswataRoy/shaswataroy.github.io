@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Developed an analysis pipeline to study smFISH (spatial transcriptomics) data and developed stochastic models to understand RNA counts in the HELA cells',
           imageUrl:
-            'https://github.com/ShaswataRoy/shaswataroy.github.io/blob/main/cellpose.png',
+            'https://ibb.co/3037Xmx',
           link: 'https://example.com',
         },
         {
