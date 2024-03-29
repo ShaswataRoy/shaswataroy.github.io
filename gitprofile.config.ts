@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Developed an analysis pipeline to study smFISH (spatial transcriptomics) data and developed stochastic models to understand RNA counts in the HELA cells',
           imageUrl:
-            'https://ibb.co/3037Xmx',
+            'https://i.postimg.cc/jdf0WdSN/Detectron.png',
           link: 'https://example.com',
         },
         {
@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Shaswata Roy',
     description: '',
     imageURL: '',
   },
