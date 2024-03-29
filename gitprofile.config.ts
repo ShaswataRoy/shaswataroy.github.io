@@ -135,22 +135,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'A hybrid quantum-classical fusion neural network to improve protein-ligand binding affinity predictions for drug discovery',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'ArXiv',
+      authors: 'S. Banerjee and S. He Yuxun and S. Konakanchi and L. Ogunfowora and S. Roy and S. Selvaras and L. Domingo and M. Chehimi and M. Djukic and C. Johnson',
+      link: 'https://arxiv.org/abs/2309.03919',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'The field of drug discovery hinges on the accurate prediction of binding affinity between prospective drug molecules and target proteins, especially when such proteins directly influence disease progression. However, estimating binding affinity demands significant financial and computational resources. While state-of-the-art methodologies employ classical machine learning (ML) techniques, emerging hybrid quantum machine learning (QML) models have shown promise for enhanced performance, owing to their inherent parallelism and capacity to manage exponential increases in data dimensionality. Despite these advances, existing models encounter issues related to convergence stability and prediction accuracy. This paper introduces a novel hybrid quantum-classical deep learning model tailored for binding affinity prediction in drug discovery. Specifically, the proposed model synergistically integrates 3D and spatial graph convolutional neural networks within an optimized quantum architecture. Simulation results demonstrate a 6% improvement in prediction accuracy relative to existing classical models, as well as a significantly more stable convergence performance compared to previous classical approaches.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Non-Markovian memory and emergent simplicities in the stochastic and plastic adaptation of individual cells to dynamic environments',
+      conferenceName: '',
+      journalName: 'biorxiv',
+      authors: 'Kunaal Joshi, Karl F Ziegler, Shaswata Roy, Charles S Wright, Rhea Gandhi, Jack Stonecipher, Rudro R Biswas, Srividya Iyer-Biswas',
+      link: 'https://www.biorxiv.org/content/10.1101/2023.05.27.542601v1',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Constancy of the interior milieu or stability through change? Addressing this question requires an understanding of the principles that govern an organism’s strategies in negotiating unpredictable changes in external conditions. Here, we chart organismal biographies obtained via high-precision dynamic experiments. Specifically, we observe statistically identical, noninteracting individual bacterial cells growing and dividing with intrinsic stochasticity in precisely controlled conditions, and directly characterize the memories retained of the environment(s) experienced over tens of generations. From these data, we then extract emergent simplicities in the seemingly complex interplay between history dependence, persistence, and transience in the stochastic memories of the dynamic environments experienced by individuals over multiple generations. These results in turn suggest a principled route for generalizing the framework of stochastic intergenerational homeostasis to plastic ‘allostasis’ when external conditions are time-varying, which applies even to organisms without neurons such as bacteria.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
