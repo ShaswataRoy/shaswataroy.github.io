@@ -57,60 +57,46 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'https://www.linkedin.com/in/shaswata-roy/',
     researchGate: '',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    medium: 'https://medium.com/@ssrohan9',
+    phone: '7657758965',
+    email: 'roy134@purdue.edu',
   },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
+  // resume: {
+  //   fileUrl:
+  //     'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+  // },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
+    'Python',
+    'R',
+    'Mathematica',
+    'Deep Learning',
+    'Computer Vision',
+    'HPC/ SLURM',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Generative AI',
+    'Git',
+    'Multi Omics',
+    'Drug Discovery',
+    'Computational Biology',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  // experiences: [
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'September 2021',
+  //     to: 'Present',
+  //     companyLink: 'https://example.com',
+  //   },
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'July 2019',
+  //     to: 'August 2021',
+  //     companyLink: 'https://example.com',
+  //   },
+  // ],
   certifications: [
     {
       name: 'Lorem ipsum',
@@ -121,16 +107,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Purdue University',
+      degree: 'Physics (Ph.D.)',
+      from: '2019',
+      to: '-',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'IIT Madras',
+      degree: 'Physics (BS+MS)',
+      from: '2014',
+      to: '2019',
     },
   ],
   publications: [
