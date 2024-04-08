@@ -110,7 +110,7 @@ const CONFIG = {
       institution: 'Purdue University',
       degree: 'Physics (Ph.D.)',
       from: '2019',
-      to: '-',
+      to: '',
     },
     {
       institution: 'IIT Madras',
