@@ -57,8 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/shaswata-roy/',
-    researchGate: 'https://scholar.google.com/citations?hl=en&user=qzC9EXQAAAAJ',
+    linkedin: 'shaswata-roy',
     medium: 'ssrohan9',
     phone: '7657758965',
     email: 'roy134@purdue.edu',
