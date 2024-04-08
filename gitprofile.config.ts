@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Designed a code repository to perform gillespie simulations, finite state projection algorithm and bayesian inference of reaction kinetics',
           imageUrl:
-            'https://postimg.cc/Ln74P4n0',
+            'https://i.postimg.cc/wjx1S7HH/Screenshot-2024-04-08-at-12-34-03-AM.png',
           link: 'https://github.com/ShaswataRoy/Stochastic-Simulation-of-Reaction-Networks',
         },
       ],
@@ -99,10 +99,10 @@ const CONFIG = {
   // ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'The Analytics Edge',
+      body: 'MITx Courses',
+      year: 'July 2016',
+      link: 'https://courses.edx.org/certificates/314c8c773dc5402fa473008c0e8e3739',
     },
   ],
   educations: [
