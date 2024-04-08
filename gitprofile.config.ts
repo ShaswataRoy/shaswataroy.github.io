@@ -38,15 +38,15 @@ const CONFIG = {
             'Developed an analysis pipeline to study smFISH (spatial transcriptomics) data and developed stochastic models to understand RNA counts in the HELA cells',
           imageUrl:
             'https://i.postimg.cc/jdf0WdSN/Detectron.png',
-          link: 'https://example.com',
+          link: 'https://github.com/ShaswataRoy/Spatial-Transcriptomics',
         },
         {
-          title: 'Project Name',
+          title: 'Stochastic Simulation of Reaction Networks',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Designed a code repository to perform gillespie simulations, finite state projection algorithm and bayesian inference of reaction kinetics',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://postimg.cc/Ln74P4n0',
+          link: 'https://github.com/ShaswataRoy/Stochastic-Simulation-of-Reaction-Networks',
         },
       ],
     },
@@ -217,11 +217,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
