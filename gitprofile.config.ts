@@ -58,8 +58,8 @@ const CONFIG = {
   },
   social: {
     linkedin: 'https://www.linkedin.com/in/shaswata-roy/',
-    researchGate: '',
-    medium: 'https://medium.com/@ssrohan9',
+    researchGate: 'https://scholar.google.com/citations?hl=en&user=qzC9EXQAAAAJ',
+    medium: 'ssrohan9',
     phone: '7657758965',
     email: 'roy134@purdue.edu',
   },
@@ -141,9 +141,9 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'ssrohan9', // to hide blog section, keep it empty
+    limit: 1, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
