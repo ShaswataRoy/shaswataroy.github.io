@@ -60,6 +60,7 @@ const CONFIG = {
     linkedin: 'shaswata-roy',
     medium: 'ssrohan9',
     phone: '7657758965',
+    ResearchGate: 'Shaswata-Roy-2',
     email: 'roy134@purdue.edu',
   },
   // resume: {
