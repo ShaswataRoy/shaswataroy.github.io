@@ -130,13 +130,12 @@ const CONFIG = {
         'We introduce a novel hybrid quantum-classical deep learning model tailored for binding affinity prediction in drug discovery. Through this mode we were able to demonstrate a 6% improvement in prediction accuracy relative to existing classical models, as well as a significantly more stable convergence performance compared to previous classical approaches.',
     },
     {
-      title: 'Non-Markovian memory and emergent simplicities in the stochastic and plastic adaptation of individual cells to dynamic environments',
-      conferenceName: '',
-      journalName: 'biorxiv',
-      authors: 'Kunaal Joshi, Karl F Ziegler, Shaswata Roy, Charles S Wright, Rhea Gandhi, Jack Stonecipher, Rudro R Biswas, Srividya Iyer-Biswas',
-      link: 'https://www.biorxiv.org/content/10.1101/2023.05.27.542601v1',
+      title: 'Scaling of stochastic growth and division dynamics: A comparative study of individual rod-shaped cells in the Mother Machine and SChemostat platforms',
+      journalName: 'Molecular Biology of the Cell',
+      authors: 'Karl Ferdinand Ziegler and Kunaal Joshi and Charles S. Wright and Shaswata Roy and Will Caruso and Rudro R. Biswas and Srividya Iyer-Biswas',
+      link: 'https://www.molbiolcell.org/doi/10.1091/mbc.E23-11-0452',
       description:
-        'We observe statistically identical, noninteracting individual bacterial cells growing and dividing with intrinsic stochasticity in precisely controlled conditions, and directly characterize the memories retained of the environment(s) experienced over tens of generations. ',
+        'We established a protocol to cultivate a suitably engineered rod-shaped mutant of Caulobacter crescentus in the Mother Machine, and benchmarked the differences in stochastic growth and division dynamics in the Mother Machine with respect to the SChemostat. ',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
