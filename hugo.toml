@@ -1,0 +1,71 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Shaswata Roy'
+theme = 'barks'
+
+
+
+# Enable unsafe HTML rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+
+    [params.navigation]
+        show_navigation = true
+
+    [params.footer]
+        show_footer = true
+
+    [params.colors]
+        theme_color = "#333333"
+        background_color = "#fcfbf9"
+        text_color = "#333333"
+        link_color = "#17442a"
+
+    [params.social]
+        [params.social.email]
+            name = "E-Mail"
+            class = "fas fa-envelope"
+            url = "roy134@purdue.edu"
+            weight = 1
+        [params.social.github]
+            name = "GitHub"
+            class = "fab fa-github"
+            url = "https://github.com/ShaswataRoy"
+            weight = 2
+        [params.social.google_scholar]
+            name = "Google Scholar"
+            class = "ai ai-google-scholar-square"
+            url = "https://scholar.google.com/citations?user=qzC9EXQAAAAJ&hl=en"
+            weight = 3
+        [params.social.linkedin]
+            name = "LinkedIn"
+            class = "fab fa-linkedin"
+            url = "https://www.linkedin.com/in/Shaswata-Roy"
+            weight = 4
+        [params.social.cv]
+            name = "CV"
+            class = "fas fa-file-pdf"
+            url = "/cv.pdf"
+            weight = 5
+
+    mainSections = ["about", "publications"]
+# Main menu
+
+[[menu.main]]
+    name = "About"
+    url  = "/about"
+    weight = 2
+[[menu.main]]
+    name = "Publications"
+    url  = "/publications"
+    weight = 2
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/posts"
+    weight = 2
