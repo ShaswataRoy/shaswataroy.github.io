@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shaswata Roy</title>
-    <link>http://localhost:64962/</link>
+    <link>http://localhost:49538/</link>
     <description>Recent content on Shaswata Roy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64962/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:49538/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Blog Post</title>
-      <link>http://localhost:64962/posts/first-post/</link>
+      <link>http://localhost:49538/posts/first-post/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/posts/first-post/</guid>
+      <guid>http://localhost:49538/posts/first-post/</guid>
       <description>&lt;p&gt;Welcome to my first blog post! This is where I share my thoughts, experiences, and ideas. Stay tuned for more updates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflections and Insights</title>
-      <link>http://localhost:64962/posts/second-post/</link>
+      <link>http://localhost:49538/posts/second-post/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/posts/second-post/</guid>
+      <guid>http://localhost:49538/posts/second-post/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:64962/about/</link>
+      <link>http://localhost:49538/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/about/</guid>
-      <description>&lt;div class=&#34;about-flex&#34;&gt;&#xA;  &lt;div class=&#34;about-text&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:64962/hiking.jpg&#34; alt=&#34;Hiking&#34; style=&#34;float: right; width: 200px; height: auto; border-radius: 15px; margin-left: 5px; margin-bottom: 5px; margin-top: 40px;&#34;&gt;&#xA;      &lt;p&gt;I&#39;m a PhD candidate nearing graduation at Purdue University&#39;s Physics Department. My research examines stochastic processes in biological systems, particularly cellular growth dynamics and gene regulatory networks.&#xA;      Living systems are often out of equilibrium due to variability in biomolecular reactions.&#xA;      I focus on designing mechanistic models that help understand the biochemical origins of population heterogeneities. This often involves looking single cell -omics data from a probabilistic lens and then using approaches derived from statistical mechanics and machine learning to study various emergent phenomenon.&lt;/p&gt;</description>
+      <guid>http://localhost:49538/about/</guid>
+      <description>&lt;div class=&#34;about-flex&#34;&gt;&#xA;  &lt;div class=&#34;about-text&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:49538/hiking.jpg&#34; alt=&#34;Hiking&#34; style=&#34;float: right; width: 200px; height: auto; border-radius: 15px; margin-left: 5px; margin-bottom: 5px; margin-top: 40px;&#34;&gt;&#xA;      &lt;p&gt;I&#39;m a PhD candidate nearing graduation at Purdue University&#39;s Physics Department. My research examines stochastic processes in biological systems, particularly cellular growth dynamics and gene regulatory networks.&#xA;      Living systems are often out of equilibrium due to variability in biomolecular reactions.&#xA;      I focus on designing mechanistic models that help understand the biochemical origins of population heterogeneities. This often involves looking single cell -omics data from a probabilistic lens and then using approaches derived from statistical mechanics and machine learning to study various emergent phenomenon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:64962/publications/</link>
+      <link>http://localhost:49538/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/publications/</guid>
+      <guid>http://localhost:49538/publications/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;A hybrid quantum-classical fusion neural network to improve protein-ligand binding affinity predictions for drug discovery&lt;/strong&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10821242&#34; title=&#34;Read the paper&#34; style=&#34;margin-left:8px;&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;L Domingo, M Chehimi, S Banerjee, Yuxun S He, S Konakanchi, L Ogunfowora, S Roy, S Selvarajan, M Djukic, C Johnson&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;2024 IEEE International Conference on Quantum Computing and Engineering (QCE)&lt;/em&gt;, &lt;strong&gt;2&lt;/strong&gt;, 126–131, 2024. IEEE.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Scaling of stochastic growth and division dynamics: A comparative study of individual rod-shaped cells in the Mother Machine and SChemostat platforms&lt;/strong&gt;&lt;a href=&#34;https://www.molbiolcell.org/doi/pdf/10.1091/mbc.E23-11-0452&#34; title=&#34;Read the paper&#34; style=&#34;margin-left:8px;&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;Karl F Ziegler, Kunaal Joshi, Charles S Wright, Shaswata Roy, Will Caruso, Rudro R Biswas, Srividya Iyer-Biswas&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;Molecular Biology of the Cell&lt;/em&gt;, &lt;strong&gt;35&lt;/strong&gt;(6), ar78, 2024. The American Society for Cell Biology.&lt;/p&gt;</description>
     </item>
   </channel>
