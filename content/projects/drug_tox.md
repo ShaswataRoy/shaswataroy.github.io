@@ -1,6 +1,7 @@
 ---
-title: "Explainability AI for Drug toxicity"
+title: "Explainable AI for Drug toxicity"
 date: 2025-09-12
+math: true
 ---
 <div style="text-align:center;">
 <a href="https://github.com/maxruhdorfer/xai-drug-discovery" target="_blank" style="margin-right:20px;">
@@ -37,9 +38,7 @@ To interpret the decisions of our trained models, we employ post-hoc explaining 
 
 We evaluate explanations based on fidelity and sparsity. Fidelity measures how well the identified features reproduce the model's predictions, and sparsity refers to the conciseness of the explanation. We analyze fidelity as a function of sparsity, using the following metrics:
 
-$$
-fid_+ = 1 - \frac{1}{N}\sum_{i=1}^N \mathcal{1}(\hat{y}_{i}^{G_C}= \hat{y}_i)
-$$ 
+$$fid_+ = 1 - \frac{1}{N}\sum_{i=1}^N \mathcal{1}(\hat{y}_{i}^{G_C}= \hat{y}_i)$$ 
 
 $$
 fid_- = 1 - \frac{1}{N}\sum_{i=1}^N \mathcal{1}(\hat{y}_i^{G_S} = \hat{y}_i)

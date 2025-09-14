@@ -22,7 +22,7 @@
 
     
     
-        <title>Shaswata Roy&nbsp;•&nbsp;My First Blog Post</title>
+        <title>Shaswata Roy&nbsp;•&nbsp;Queues and Genes</title>
     
 
     
@@ -74,15 +74,6 @@
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
     
-    
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-            onload="renderMathInElement(document.body, {delimiters: [
-                {left: '$$', right: '$$', display: true},
-                {left: '$', right: '$', display: false}
-            ]});"></script>
 
 </head>
 <body>
@@ -115,14 +106,32 @@
 <article class="post">
 
     
-<h1><a href="http://localhost:64962/posts/first-post/">My First Blog Post</a></h1>
+<h1><a href="http://localhost:64962/posts/first-post/">Queues and Genes</a></h1>
 
 
     <time datetime="2025-09-12">Published on September 12, 2025</time>
 
 
-    <p>Welcome to my first blog post! This is where I share my thoughts, experiences, and ideas. Stay tuned for more updates.</p>
-
+    <p>Queueing theory provides a mathematical framework for analyzing systems where entities wait for service. In biological systems, particularly gene transcription, this framework elegantly models the stochastic processes governing RNA production.</p>
+<div style="text-align:center;">
+    <img src="/figures/queue.jpg" alt="Fidelity as a function of the number of most important features and edges topk" width="500"/>
+</div>
+<!--more-->
+<p>The stochastic nature of transcription—including random promoter binding, variable elongation rates, and transcriptional bursting—mirrors the probabilistic arrivals and service times in classical queueing models. This connection allows researchers to predict mRNA distributions, analyze transcriptional noise, and understand how cellular resources affect gene expression dynamics.</p>
+<p>The Kendall notation <strong>A/S/c/K/N/D</strong> is a standard way to describe queueing systems:</p>
+<ul>
+<li><strong>A</strong>: Arrival process (e.g., M for Markovian/Poisson, D for deterministic)</li>
+<li><strong>S</strong>: Service time distribution (e.g., M for exponential, G for general)</li>
+<li><strong>c</strong>: Number of servers</li>
+<li><strong>K</strong>: System capacity (maximum number in system)</li>
+<li><strong>N</strong>: Population size (calling population)</li>
+<li><strong>D</strong>: Queue discipline (e.g., FIFO, LIFO, priority)</li>
+</ul>
+<p>Common examples: M/M/1 (single-server queue with Poisson arrivals and exponential service), M/G/∞ (infinite servers with general service times).</p>
+<h3>Transcription</h3>
+$$ U_i \underset{k_{j,i}}{\overset{k_{i,j}}{\rightleftharpoons}} U_j, \quad U_i \xrightarrow{\rho_{i,j}} U_j + M_1, \quad i,j = 1,\ldots,S$$
+<h3>RNA Degradation</h3>
+$$ M_i \underset{d_{j,i}}{\overset{d_{i,j}}{\rightleftharpoons}} M_j, \quad M_i \xrightarrow{\lambda_i} \emptyset, \quad i,j = 1,\ldots,R$$
 
 </article>
 
@@ -139,6 +148,29 @@
 </div>
             </div>
         </div>
+
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous" rel="preload"></script>
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);" rel="preload"></script>
+
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false}
+                ]
+            });
+        });
+    </script>
+
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-title: "Reflections and Insights"
+title: "Waddington Landscape"
 date: 2025-09-12
 ---
 

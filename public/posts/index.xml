@@ -9,17 +9,17 @@
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:64962/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Blog Post</title>
-      <link>http://localhost:64962/posts/first-post/</link>
+      <title>Queues and Genes</title>
+      <link>http://localhost:64962/posts/queue/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/posts/first-post/</guid>
-      <description>&lt;p&gt;Welcome to my first blog post! This is where I share my thoughts, experiences, and ideas. Stay tuned for more updates.&lt;/p&gt;</description>
+      <guid>http://localhost:64962/posts/queue/</guid>
+      <description>&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:64962/figures/queue.jpg&#34; alt=&#34;Fidelity as a function of the number of most important features and edges topk&#34; width=&#34;500&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Queueing theory provides a mathematical framework for analyzing systems where entities wait for service. In biological systems, particularly gene transcription, this framework elegantly models the stochastic processes governing RNA production.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Reflections and Insights</title>
-      <link>http://localhost:64962/posts/second-post/</link>
+      <title>Waddington Landscape</title>
+      <link>http://localhost:64962/posts/waddington/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/posts/second-post/</guid>
+      <guid>http://localhost:64962/posts/waddington/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
   </channel>

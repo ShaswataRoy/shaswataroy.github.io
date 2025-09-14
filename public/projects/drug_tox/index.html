@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64962&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
     
     <meta name="generator" content="Hugo 0.150.0">
@@ -22,7 +22,7 @@
 
     
     
-        <title>Shaswata Roy&nbsp;•&nbsp;Explainability AI for Drug toxicity</title>
+        <title>Shaswata Roy&nbsp;•&nbsp;Explainable AI for Drug toxicity</title>
     
 
     
@@ -34,7 +34,7 @@
     <meta name="twitter:title" content="Shaswata Roy" />
 
     
-    <link rel="canonical" href="http://localhost:64962/projects/drug_tox/">
+    <link rel="canonical" href="http://localhost:1313/projects/drug_tox/">
     
     
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -45,7 +45,7 @@
     
     
         
-    <link rel="stylesheet" href="http://localhost:64962/styles.622313132e27c3457aa9b201e2bf55644ddefeaeb2a9b7c5f7f211596d0b950d.css">
+    <link rel="stylesheet" href="http://localhost:1313/styles.622313132e27c3457aa9b201e2bf55644ddefeaeb2a9b7c5f7f211596d0b950d.css">
 
     
     
@@ -74,15 +74,6 @@
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
     
-    
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-            onload="renderMathInElement(document.body, {delimiters: [
-                {left: '$$', right: '$$', display: true},
-                {left: '$', right: '$', display: false}
-            ]});"></script>
 
 </head>
 <body>
@@ -112,7 +103,7 @@
 <main>
                         
     
-        <h1>Explainability AI for Drug toxicity</h1>
+        <h1>Explainable AI for Drug toxicity</h1>
     
     <div style="text-align:center;">
 <a href="https://github.com/maxruhdorfer/xai-drug-discovery" target="_blank" style="margin-right:20px;">
@@ -138,9 +129,7 @@
 <h2 id="explainability">Explainability</h2>
 <p>To interpret the decisions of our trained models, we employ post-hoc explaining algorithms, specifically GNNExplainer and AttentionExplainer, comparing them to a DummyExplainer that produces random masks. GNNExplainer identifies key features by maximizing mutual information with the model predictions, while AttentionExplainer uses attention coefficients from the GAT.</p>
 <p>We evaluate explanations based on fidelity and sparsity. Fidelity measures how well the identified features reproduce the model&rsquo;s predictions, and sparsity refers to the conciseness of the explanation. We analyze fidelity as a function of sparsity, using the following metrics:</p>
-<p>$$
-fid_+ = 1 - \frac{1}{N}\sum_{i=1}^N \mathcal{1}(\hat{y}_{i}^{G_C}= \hat{y}_i)
-$$</p>
+<p>$$fid_+ = 1 - \frac{1}{N}\sum_{i=1}^N \mathcal{1}(\hat{y}_{i}^{G_C}= \hat{y}_i)$$</p>
 <p>$$
 fid_- = 1 - \frac{1}{N}\sum_{i=1}^N \mathcal{1}(\hat{y}_i^{G_S} = \hat{y}_i)
 $$</p>
@@ -169,6 +158,29 @@ $$</p>
 </div>
             </div>
         </div>
+
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous" rel="preload"></script>
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);" rel="preload"></script>
+
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "$", right: "$", display: false}
+                ]
+            });
+        });
+    </script>
+
 
 </body>
 </html>
