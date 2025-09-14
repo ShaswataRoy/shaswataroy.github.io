@@ -1,0 +1,38 @@
+
+{{ define "main" }}
+
+        <div class="main-profile">
+                    <div class="main-profile-img">
+                        <img src="/profile.png" alt="Profile" class="profile-img">
+                    </div>
+                    <div class="main-profile-custom">
+                        <p>I am a PhD candidate in Physics at Purdue University working at the intersection of statistical physics and systems biology.</p>
+                        <p>Feel free to connect with me!</p>
+                    </div>
+                    <div class="main-profile-social">
+                            {{ if isset .Site.Params "social" }}
+                            {{ with .Site.Params.social }}
+                                <ul class="main-social">
+                                    {{ if isset . "email" }}
+                                        <li><a href="mailto:roy134@purdue.edu" title="E-Mail"><i class="fas fa-envelope"></i></a></li>
+                                    {{ end }}
+                                    {{ if isset . "github" }}
+                                        <li><a href="https://github.com/ShaswataRoy" title="GitHub"><i class="fab fa-github"></i></a></li>
+                                    {{ end }}
+                                    {{ if isset . "google_scholar" }}
+                                        <li><a href="https://scholar.google.com/citations?user=qzC9EXQAAAAJ&amp;hl=en" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a></li>
+                                    {{ end }}
+                                    {{ if isset . "linkedin" }}
+                                        <li><a href="https://www.linkedin.com/in/Shaswata-Roy" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                                    {{ end }}
+                                </ul>
+                            {{ end }}
+                            {{ end }}
+                    </div>
+        </div>
+        <article>
+                {{ .Content }}
+        </article>
+
+
+{{ end }}

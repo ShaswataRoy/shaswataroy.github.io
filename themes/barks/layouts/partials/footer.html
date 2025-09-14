@@ -1,0 +1,9 @@
+
+{{ if not (eq .Site.Params.footer.show_footer false) }}
+<footer>
+
+
+    {{ .Site.Copyright | safeHTML }}
+
+</footer>
+{{ end }}
