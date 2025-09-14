@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Shaswata Roy</title>
-    <link>http://localhost:49538/posts/</link>
+    <link>http://localhost:49717/posts/</link>
     <description>Recent content in Posts on Shaswata Roy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:49538/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:49717/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Blog Post</title>
-      <link>http://localhost:49538/posts/first-post/</link>
+      <link>http://localhost:49717/posts/first-post/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:49538/posts/first-post/</guid>
+      <guid>http://localhost:49717/posts/first-post/</guid>
       <description>&lt;p&gt;Welcome to my first blog post! This is where I share my thoughts, experiences, and ideas. Stay tuned for more updates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflections and Insights</title>
-      <link>http://localhost:49538/posts/second-post/</link>
+      <link>http://localhost:49717/posts/second-post/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:49538/posts/second-post/</guid>
+      <guid>http://localhost:49717/posts/second-post/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
   </channel>
