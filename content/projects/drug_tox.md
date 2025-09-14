@@ -3,7 +3,7 @@ title: "Explainability AI for Drug toxicity"
 date: 2025-09-12
 ---
 <div style="text-align:center;">
-<a href="https://github.com/ShaswataRoy/shaswataroy.github.io" target="_blank" style="margin-right:20px;">
+<a href="https://github.com/maxruhdorfer/xai-drug-discovery" target="_blank" style="margin-right:20px;">
   <i class="fab fa-github" style="font-size:2em;"></i>
 </a>
 <a href="https://www.erdosinstitute.org/_files/ugd/660616_0da58d56257f426e9ed943a93f434d76.pdf" target="_blank">
