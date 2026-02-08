@@ -29,6 +29,22 @@
     margin: 64px auto;
 }
 
+.post-summary {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 1.25rem auto;
+    padding: 1rem 1.25rem;
+    width: 90%;
+}
+
+.post-summary > :first-child {
+    margin-top: 0;
+}
+
+.post-summary > :last-child {
+    margin-bottom: 0;
+}
+
 .read-more {
     width: 90%;
     margin: 0 auto;

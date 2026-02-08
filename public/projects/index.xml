@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Shaswata Roy</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>http://localhost:61439/projects/</link>
     <description>Recent content in Projects on Shaswata Roy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61439/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Explainable AI for Drug toxicity</title>
-      <link>http://localhost:1313/projects/drug_tox/</link>
+      <link>http://localhost:61439/projects/drug_tox/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/drug_tox/</guid>
+      <guid>http://localhost:61439/projects/drug_tox/</guid>
       <description>&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/maxruhdorfer/xai-drug-discovery&#34; target=&#34;_blank&#34; style=&#34;margin-right:20px;&#34;&gt;&#xA;  &lt;i class=&#34;fab fa-github&#34; style=&#34;font-size:2em;&#34;&gt;&lt;/i&gt;&#xA;&lt;/a&gt;&#xA;&lt;a href=&#34;https://www.erdosinstitute.org/_files/ugd/660616_0da58d56257f426e9ed943a93f434d76.pdf&#34; target=&#34;_blank&#34;&gt;&#xA;  &lt;i class=&#34;fas fa-file-pdf&#34; style=&#34;font-size:2em;color:#d9534f;&#34;&gt;&lt;/i&gt;&#xA;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;This project uses explainable AI to identify chemical substructures linked to drug toxicity, focusing on the TOX21 dataset and NR-AhR activity. We preprocess the data, sanitize molecules, remove duplicates, and extract features for graph-based models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflections and Insights</title>
-      <link>http://localhost:1313/projects/second-project/</link>
+      <link>http://localhost:61439/projects/second-project/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/second-project/</guid>
+      <guid>http://localhost:61439/projects/second-project/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
   </channel>

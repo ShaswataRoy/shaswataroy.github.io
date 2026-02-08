@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Shaswata Roy</title>
-    <link>http://localhost:64962/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shaswata Roy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64962/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Queues and Genes</title>
-      <link>http://localhost:64962/posts/queue/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/posts/queue/</guid>
-      <description>&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:64962/figures/queue.jpg&#34; alt=&#34;Fidelity as a function of the number of most important features and edges topk&#34; width=&#34;500&#34;/&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Queueing theory provides a mathematical framework for analyzing systems where entities wait for service. In biological systems, particularly gene transcription, this framework elegantly models the stochastic processes governing RNA production.&lt;/p&gt;</description>
+      <title>From Boltzmann to Shannon</title>
+      <link>http://localhost:1313/posts/queue/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/queue/</guid>
+      <description>&lt;p&gt;In his key paper in 1865, &lt;em&gt;Clausius&lt;/em&gt; defined entropy as this thermodynamic quantity and showed from empirical observations of engine inefficiencies and heat conduction that it seemed to maximize in isolated system. Almost a decade later, &lt;em&gt;Boltzmann&lt;/em&gt; came up with his famous equation defining entropy as a measure of the number of accessible states.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Waddington Landscape</title>
-      <link>http://localhost:64962/posts/waddington/</link>
+      <link>http://localhost:1313/posts/waddington/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64962/posts/waddington/</guid>
+      <guid>http://localhost:1313/posts/waddington/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
   </channel>
