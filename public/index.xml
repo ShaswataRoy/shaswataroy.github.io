@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shaswata Roy</title>
-    <link>http://localhost:61439/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Shaswata Roy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61439/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Boltzmann to Shannon</title>
-      <link>http://localhost:61439/posts/queue/</link>
+      <link>http://localhost:1313/posts/queue/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61439/posts/queue/</guid>
+      <guid>http://localhost:1313/posts/queue/</guid>
       <description>&lt;p&gt;In his key paper in 1865, &lt;em&gt;Clausius&lt;/em&gt; defined entropy as this thermodynamic quantity and showed from empirical observations of engine inefficiencies and heat conduction that it seemed to maximize in isolated system. Almost a decade later, &lt;em&gt;Boltzmann&lt;/em&gt; came up with his famous equation defining entropy as a measure of the number of accessible states.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Explainable AI for Drug toxicity</title>
-      <link>http://localhost:61439/projects/drug_tox/</link>
+      <link>http://localhost:1313/projects/drug_tox/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61439/projects/drug_tox/</guid>
+      <guid>http://localhost:1313/projects/drug_tox/</guid>
       <description>&lt;div style=&#34;text-align:center;&#34;&gt;&#xA;&lt;a href=&#34;https://github.com/maxruhdorfer/xai-drug-discovery&#34; target=&#34;_blank&#34; style=&#34;margin-right:20px;&#34;&gt;&#xA;  &lt;i class=&#34;fab fa-github&#34; style=&#34;font-size:2em;&#34;&gt;&lt;/i&gt;&#xA;&lt;/a&gt;&#xA;&lt;a href=&#34;https://www.erdosinstitute.org/_files/ugd/660616_0da58d56257f426e9ed943a93f434d76.pdf&#34; target=&#34;_blank&#34;&gt;&#xA;  &lt;i class=&#34;fas fa-file-pdf&#34; style=&#34;font-size:2em;color:#d9534f;&#34;&gt;&lt;/i&gt;&#xA;&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;This project uses explainable AI to identify chemical substructures linked to drug toxicity, focusing on the TOX21 dataset and NR-AhR activity. We preprocess the data, sanitize molecules, remove duplicates, and extract features for graph-based models.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reflections and Insights</title>
-      <link>http://localhost:61439/projects/second-project/</link>
+      <link>http://localhost:1313/projects/second-project/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61439/projects/second-project/</guid>
+      <guid>http://localhost:1313/projects/second-project/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Waddington Landscape</title>
-      <link>http://localhost:61439/posts/waddington/</link>
+      <link>http://localhost:1313/posts/waddington/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61439/posts/waddington/</guid>
+      <guid>http://localhost:1313/posts/waddington/</guid>
       <description>&lt;p&gt;In this post, I reflect on recent experiences and share insights from my journey. Thank you for reading and supporting my blog!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:61439/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61439/about/</guid>
-      <description>&lt;div class=&#34;about-flex&#34;&gt;&#xA;  &lt;div class=&#34;about-text&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:61439/hiking.jpg&#34; alt=&#34;Hiking&#34; style=&#34;float: right; width: 200px; height: auto; border-radius: 15px; margin-left: 5px; margin-bottom: 5px; margin-top: 40px;&#34;&gt;&#xA;      &lt;p&gt;I&#39;m a postoc at Yale&#39;s Biomedical Engineering department. My research examines stochastic processes in biological systems, particularly cellular growth dynamics and gene regulatory networks.&#xA;      Living systems are often out of equilibrium due to variability in biomolecular reactions.&#xA;      I focus on designing mechanistic models that help understand the biochemical origins of population heterogeneities. This often involves looking single cell -omics data from a probabilistic lens and then using approaches derived from statistical mechanics and machine learning to study various emergent phenomenon.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div class=&#34;about-flex&#34;&gt;&#xA;  &lt;div class=&#34;about-text&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/hiking.jpg&#34; alt=&#34;Hiking&#34; style=&#34;float: right; width: 200px; height: auto; border-radius: 15px; margin-left: 5px; margin-bottom: 5px; margin-top: 40px;&#34;&gt;&#xA;      &lt;p&gt;I&#39;m a postoc at Yale&#39;s Biomedical Engineering department. My research examines stochastic processes in biological systems, particularly cellular growth dynamics and gene regulatory networks.&#xA;      Living systems are often out of equilibrium due to variability in biomolecular reactions.&#xA;      I focus on designing mechanistic models that help understand the biochemical origins of population heterogeneities. This often involves looking single cell -omics data from a probabilistic lens and then using approaches derived from statistical mechanics and machine learning to study various emergent phenomenon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:61439/publications/</link>
+      <link>http://localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61439/publications/</guid>
+      <guid>http://localhost:1313/publications/</guid>
       <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;A hybrid quantum-classical fusion neural network to improve protein-ligand binding affinity predictions for drug discovery&lt;/strong&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10821242&#34; title=&#34;Read the paper&#34; style=&#34;margin-left:8px;&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;L Domingo, M Chehimi, S Banerjee, Yuxun S He, S Konakanchi, L Ogunfowora, S Roy, S Selvarajan, M Djukic, C Johnson&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;2024 IEEE International Conference on Quantum Computing and Engineering (QCE)&lt;/em&gt;, &lt;strong&gt;2&lt;/strong&gt;, 126–131, 2024. IEEE.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Scaling of stochastic growth and division dynamics: A comparative study of individual rod-shaped cells in the Mother Machine and SChemostat platforms&lt;/strong&gt;&lt;a href=&#34;https://www.molbiolcell.org/doi/pdf/10.1091/mbc.E23-11-0452&#34; title=&#34;Read the paper&#34; style=&#34;margin-left:8px;&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&#xA;&lt;em&gt;Karl F Ziegler, Kunaal Joshi, Charles S Wright, Shaswata Roy, Will Caruso, Rudro R Biswas, Srividya Iyer-Biswas&lt;/em&gt;&lt;br&gt;&#xA;&lt;em&gt;Molecular Biology of the Cell&lt;/em&gt;, &lt;strong&gt;35&lt;/strong&gt;(6), ar78, 2024. The American Society for Cell Biology.&lt;/p&gt;</description>
     </item>
   </channel>
